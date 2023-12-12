@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* @media(max-width: 480px) {
+} */
+    header{
+    /* width: 1400px;
+    height: 244px; */
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row; 
+}
+
+.conteiner-images{
+    display: flex;
+    margin: 0 auto;
+    /* background-color: green; */
+    /* justify-content: center; */
+
+    
+
+ 
+}
+
+.logo-topo{
+    display: flex;
+   
+}
+
+ 
+
+    
+
+
+
+
+
+
