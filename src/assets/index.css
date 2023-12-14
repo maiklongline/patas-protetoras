@@ -1,39 +1,123 @@
-*{
-    margin:0;
-    padding:0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Poppins&display=swap');
 
-/* @media(max-width: 480px) {
-} */
-    header{
-    /* width: 1400px;
-    height: 244px; */
-
+header{
     display: flex;
-    justify-content: center;
+   align-items: center;
 
-    flex-direction: row; 
-}
-
-.conteiner-images{
-    display: flex;
-    margin: 0 auto;
-    /* background-color: green; */
-    /* justify-content: center; */
+    flex-direction: column;
+  
 
     
-
- 
 }
 
-.logo-topo{
+
+
+.navigation{
     display: flex;
+   
+    gap:97px;
+}
+
+.navigation a,button{
+    text-decoration: none;
+    color: #000;
+
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-bottom: 24px;
+
+    
+}
+
+
+button{
+    border-radius: 17px;
+    background: #E08E79;
+    border: none;
    
 }
 
+button a{
+    padding: 12px;
+}
+
+.sub-header{
+    width: 1489px;
+    height: 392px;
+    background-color:#5E3929;
+
+    position: absolute;
+     display: flex; 
+    /* flex-direction: row; */
+}
+
+.retangle{
+    width: 209px;
+    height: 6px;
+    background-color: #000;
+
+    transform: rotate(90deg);
+
+    position: relative;
+    top:142px;
+
+
  
+}
+
+.title-sub-header{
+    color: #EABB80;
+
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    display: flex;
+    
+    position:relative;
+    right: 40px;
+    z-index: 1;
+    
+}
+
+.text-sub-header{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    position: relative;
+    z-index: 1;
+}
+
+
+#image-hero{
+    position:absolute;
+    width:1495px;
+    height: 600;
 
     
+    left: 350px;
+
+    top:58px;
+}
+
+.texts-sub-header{
+    width: 335px;
+    height: 128px;
+    
+    
+}
+
 
 
 
