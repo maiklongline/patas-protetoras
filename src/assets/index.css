@@ -37,7 +37,7 @@ header{
 
 button{
     border-radius: 17px;
-    background: #E08E79;
+    background: #f5886b;
     border: none;
    
 }
@@ -103,7 +103,7 @@ button a{
 #image-hero{
     position:absolute;
     width:1495px;
-    height: 600;
+    /* height: 600px; */
 
     
     left: 350px;
@@ -118,9 +118,86 @@ button a{
     
 }
 
+.conteiner-sobre{
+    width: 1400px;
+    height: 420px;
 
+    margin:680px 245px 0 55px;
+    
 
+    display: flex;
+    flex-direction: row;
+}
 
+.sobre-texts{
+   padding-left: 130px;
+   
+}
 
+.title-sobre{
+    color: #f5886b;
+
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom:74px;
+}
+
+.text-sobre{
+
+     color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.conteiner-adocao{
+    width: 1400px;
+    height: 526px;
+    margin: 166px 152px 0 87px;
+}
+
+.title-adocao{
+    width: 500px;
+    height: 291px;
+}
+
+.text-adocao{
+    color: #72AE95;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    
+}
+
+.text-adocao1{
+    color: #5A3226;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-adocao .text-adocao{
+    margin-left:80px;
+}
+
+.especificacoes-adocao{
+    width:754px ;
+    height: 462px;
+
+    
+}
 
 
