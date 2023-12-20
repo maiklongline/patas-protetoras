@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Poppins&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
    align-items: center;
@@ -122,7 +126,7 @@ button a{
     width: 1400px;
     height: 420px;
 
-    margin:680px 245px 0 55px;
+    margin:680px 245px 0 100px;
     
 
     display: flex;
@@ -150,7 +154,7 @@ button a{
 
      color: #000;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;    
@@ -159,15 +163,26 @@ button a{
 .conteiner-adocao{
     width: 1400px;
     height: 526px;
-    margin: 166px 152px 0 87px;
+    margin: 166px 152px 0 100px;
+    display: flex;
+   
+    justify-content: center;
+    
 }
 
 .title-adocao{
-    width: 500px;
-    height: 291px;
+  width: 445px;
+  height: 278px;
+    margin-right: 100px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 60px;
+   
 }
 
 .text-adocao{
+
     color: #72AE95;
     font-family: Jost;
     font-size: 24px;
@@ -175,11 +190,14 @@ button a{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-
     
 }
 
 .text-adocao1{
+   
+    width: 458px;
+    height: 107px;
+
     color: #5A3226;
     text-align: center;
     font-family: Jost;
@@ -193,11 +211,107 @@ button a{
     margin-left:80px;
 }
 
-.especificacoes-adocao{
-    width:754px ;
-    height: 462px;
+.especificacao-adocao{
+    /* width: 430px;
+    height: 409px; */
+    display: flex;
+    flex-direction: column;
+    gap:83px;
 
+    margin-right:89px ;   
+}
+
+.especificacao-dog,.especificacao-dog1{
+    display: flex;
+    height: 129px;
+    width: 600px;
+    color: #000;
+
+   
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     
 }
 
+.images-adocao{
+    display: flex;
+    flex-direction: column;
+    gap:91px;
+}
 
+.cao1,.cao2{
+    width:300px
+}
+
+
+.conteiner-adocao-cuidados{
+    width: 1154px;
+    height: 390px;
+    display: flex;
+    
+   
+   
+   
+}
+
+
+.cont-cuidados{
+    display: flex;
+   
+   
+    flex-direction: column;
+
+    width: 531px;
+}
+
+.titles-cont-cuidados{
+    margin-left: 145px;
+    color: #F5886B;
+
+    text-align: center;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitles-cont-cuidados{
+    width: 531px;;
+    margin-left:79px ;
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.text-cuidados{
+    margin-left:90px;
+   
+
+    color: #000;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cont-text-cuidados{
+    display: flex;
+
+}
+
+.atributo-text{
+    margin-left:50px;
+}
+
+.image-cont-cuidados{
+   margin-left: 149px;
+}
